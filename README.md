@@ -15,3 +15,6 @@ objects	observable.object({ })
 arrays	observable.array([ ])
 maps	observable.map(value)
 primitives, functions, class-instances	observable.box(value)
+
+
+Observable maps are great for tracking dynamic changes to the keys and values. This is in stark contrast to observable objects, which do not track properties that are added after creation.
