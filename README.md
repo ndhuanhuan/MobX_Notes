@@ -19,5 +19,5 @@ primitives, functions, class-instances	observable.box(value)
 
 Observable maps are great for tracking dynamic changes to the keys and values. This is in stark contrast to observable objects, which do not track properties that are added after creation.
 
-#### The computed observable
+#### The computed observable(Computed properties, also known as derivations)
 We can define a computed description property by simply adding a get-property to the cart observable. It will derive its value from items.length. 
